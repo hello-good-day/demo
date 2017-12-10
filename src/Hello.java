@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -24,13 +23,17 @@ public class Hello {
 
 
 
+
+
+
     public static void hello(){
         List<String> list = new ArrayList<String>();
         list.add("a");
         list.add("b");
+        list.add("d");
         list.add("c");
 
-        Map<String, String> map = new HashMap<>();
+        Map<String, String> map = new HashMap<String,String>();
         for (String s : list) {
             System.out.println(s);
         }
