@@ -29,6 +29,7 @@ public class Hello {
         List<String> list = new ArrayList<String>();
         list.add("a");
         list.add("b");
+        list.add("d");
 
         for (String s : list) {
             System.out.println(s);
